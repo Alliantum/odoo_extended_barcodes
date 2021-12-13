@@ -62,6 +62,7 @@ After installing this module. The default types will be extended with
 all these new kind of barcode types:
 
 Tbarcode 7 codes
+
 -  BARCODE_CODE11
 -  BARCODE_C25MATRIX
 -  BARCODE_C25INTER
@@ -123,6 +124,7 @@ Tbarcode 7 codes
 -  BARCODE_PLESSEY
 
 Tbarcode 8 codes
+
 -  BARCODE_TELEPEN_NUM
 -  BARCODE_ITF14
 -  BARCODE_KIX
@@ -141,13 +143,16 @@ Tbarcode 9 codes
 -  BARCODE_HIBC_AZTEC
 
 Tbarcode 10 codes
+
 -  BARCODE_DOTCODE
 -  BARCODE_HANXIN
 
 Tbarcode 11 codes
+
 -  BARCODE_MAILMARK
 
 Zint specific
+
 -  BARCODE_AZRUNE
 -  BARCODE_CODE32
 -  BARCODE_EANX_CC
@@ -166,6 +171,7 @@ Zint specific
 -  BARCODE_UPNQR
 -  BARCODE_ULTRA
 -  BARCODE_RMQR
+
 
 **Table of contents**
 
