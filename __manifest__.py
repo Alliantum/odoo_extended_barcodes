@@ -1,6 +1,6 @@
 {
     'name': "Extended Barcodes",
-    'summary': "",
+    'summary': "Allows to generate a whole new range of barcodes types.",
     'author': "Alliantum",
     'website': "https://www.alliantum.com",
     'license': 'AGPL-3',
