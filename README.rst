@@ -208,6 +208,10 @@ To use this module, it’s recommended to follow the approach below:
 
 
 
+
+
+
+
 .. image:: 
    :alt: Barcode
    :width: 100 %
@@ -216,9 +220,14 @@ To use this module, it’s recommended to follow the approach below:
 
 
 
+
 ::
 
    all you need to do is:
+
+
+
+
 
 
 Then, instead a traditional **Code128** barcode, you will end up with
