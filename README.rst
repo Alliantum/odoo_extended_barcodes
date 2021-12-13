@@ -223,7 +223,6 @@ To use this module, it’s recommended to follow the approach below:
          </xpath>
       </template>
 
-
 Then, instead a traditional **Code128** barcode, you will end up with
 something as beautiful as this:
 
@@ -280,4 +279,17 @@ mission is to support the widespread use of Odoo by others companies, and collab
 This module is part of the `Alliantum/odoo_public_modules <https://github.com/Alliantum/odoo_public_modules>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://github.com/Alliantum/odoo_public_modules.
+
+
+
+
+Disclaimer
+----------
+
+The current module makes use of the Python package
+`pyzint <https://pypi.org/project/pyzint/>`__ for the rendering of the
+barcodes, which is a c-api binding to the c library
+`Zint <https://github.com/zint/zint>`__. Please head over to the pyzint
+`project’s repository <https://github.com/Pavkazzz/pyzint>`__ for more
+information and examples on how the package works.
 
