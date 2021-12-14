@@ -9,6 +9,9 @@
     'depends': [
         'web',
     ],
+    'data': [
+        'data/barcodes_extended_libraries.xml'
+    ],
     'application': False,
     'external_dependencies': {
         'python': ['pyzint'],  # pip install pyzint
