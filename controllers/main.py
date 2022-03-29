@@ -119,7 +119,7 @@ class ReportControllerExtraBarcodes(ReportController):
         if hasattr(pyzint.Barcode, type):
             try:
                 symbol = getattr(pyzint.Barcode, type)(value, height=int(height), scale=float(scale)) # width is not a valid argument for pyzint, but generally you can use css styles for this
-                return symbol.render_bmp()
+                return symbol.render_svg()
             except (ValueError, AttributeError):
                 raise werkzeug.exceptions.HTTPException(description='Cannot convert into barcode.')
         else:
